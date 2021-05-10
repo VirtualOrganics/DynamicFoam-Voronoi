@@ -4,7 +4,9 @@ Dynamic Foam Simulation / Zero-Player-Game
 
 ## What is this?
 
-This is an implementation of a concept presented to me by **Michel van de Gaer**.
+Pressurized flow (currents) running through the edges of the Voronoi cells, regulated by the pressure distribution in the network (graphs) and the angularity at the junctions, affect the size (temperature) of the cells they pass. Currents can heat up or cool down the cells expand vs shrink.
+
+It is an implementation of a concept presented to NIck McDonald by **Michel van de Gaer**.
 
 The concept describes a "zero-player-game" played on a "foam", i.e. some form of
 triangle center mesh on a triangulation of the plane.
